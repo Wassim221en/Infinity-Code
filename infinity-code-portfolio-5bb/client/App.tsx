@@ -22,7 +22,7 @@ const App = () => (
         <Sonner />
         <ParticlesBackground />
         <Header />
-        <BrowserRouter>
+        <BrowserRouter basename="/Infinity-Code">
           <Routes>
             <Route path="/" element={<Index />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
